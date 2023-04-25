@@ -1,0 +1,31 @@
+.navbar {
+    color: white;
+    background-color: #008B9E;
+    height: 10vh;
+    padding: 1vmin 2vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo, .nav-logo img{
+    height: 100%;
+}
+
+.nav-title {
+    font-size: 3vmin;
+    font-weight: 600;
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links svg {
+    height: 80%;
+    fill: white;
+}
